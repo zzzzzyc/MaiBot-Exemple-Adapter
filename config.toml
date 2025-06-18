@@ -1,0 +1,11 @@
+[config]
+# --- 配置 ---
+# 请将这里替换为你的 MaimCore WebSocket 地址
+MAIMCORE_URL = "ws://127.0.0.1:8000/ws"
+# 这是一个自定义的标识符，用于告诉 MaimCore 消息来自哪个适配器实例
+PLATFORM_NAME = "console_adapter"
+# 模拟的用户和群组信息
+CONSOLE_USER_ID = "console_user"
+CONSOLE_NICKNAME = "ConsoleUser"
+CONSOLE_GROUP_ID = "1"
+CONSOLE_GROUP_NAME = "Console Group"
